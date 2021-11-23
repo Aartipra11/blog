@@ -1,0 +1,93 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Pravendra Singh | @Pravendra777
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+body {
+ background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+ color: #000000;
+ font-family: 'Lato', sans-serif;
+ line-height: 1.7; /* line-height is unit-less */
+ font-size: 100%;
+}  
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+#container{
+     width: 1200px;
+    margin: 0 auto 0 auto;
+
+}
+
+#header{
+     width: 750px;
+     
+
+}
+h1{
+     font-size: 40px;
+     margin: 0px ;
+
+}
+h5{
+     color: gray;
+}
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+#main{
+     background: white;
+     width: 750px;
+     float: left;
+     margin-right: 5px;
+     padding:15px 15px 40px 15px;
+}
+h1{
+     margin: 5px;
+}
+
+#sidebar{
+     background: white;
+     width: 300px;
+     float: left;
+     
+     padding:15px ;
+     text-align: left;
+}
+
+#ch{
+     border-radius: 50%;
+     height: 150px;
+     width: 150px;
+}
+a{
+     color: red;
+}
+blockquote{
+     border-left: 6px solid gray;
+     padding-left: auto;
+     margin: 0px;
+}
+#footer{
+     height: 40px;
+
+}
